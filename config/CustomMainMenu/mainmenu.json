@@ -1,0 +1,244 @@
+{
+    "images":
+    {
+		"modpack":
+		{
+            "image" : "mainmenu:modpack.png",
+            "posX" : -64,
+            "posY" : -120,
+            "height" : 128,
+            "width" : 128,
+            "imageWidth": 612,
+            "imageHeight": 512,
+            "alignment" : "center"
+		}
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 2,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 25,
+            "width" : 98,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:shortbutton.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 50,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+			"texture" : "mainmenu:longbutton.png",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        },
+        "language": {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"tooltip": "Language",
+			"alignment" : "center",
+			"imageWidth": "40",
+			"imageHeight": "40",
+			"texture" : "mainmenu:lang.png",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        "Mod Pack Site": {
+            "text" : "",
+            "posX" : 105,
+            "posY" : 25,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+			"tooltip": "Meridian Site",
+			"texture" : "mainmenu:web.png",
+			"imageWidth": "40",
+			"imageHeight": "40",
+            "action" :
+            {
+                "type" : "openLink",
+				"link" : "https://www.technicpack.net/modpack/meridian-pack.1344852"
+            }
+        },
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -20,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "top_right",
+            "texture" : "mainmenu:refresh.png",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+
+    "labels":
+    {
+		"modpack":{
+			"text" : "By OllyB3",
+            "posX" : 25,
+            "posY" : -20,
+			"fontSize" : 0.9,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "center"
+		},
+		"minecraft":{
+			"text" : "Minecraft #mcversion#",
+            "posX" : 3,
+            "posY" : -19,
+			"fontSize" : 0.6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"forge":{
+			"text" : "Forge #forgeversion#",
+            "posX" : 3,
+            "posY" : -13,
+			"fontSize" : 0.6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"modsactive":{
+			"text" : "#modsactive# Mods Active",
+            "posX" : 3,
+            "posY" : -7,
+			"fontSize" : 0.6,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "bottom_left"
+		},
+		"newsLine1":{
+			"text" : "",
+            "posX" : 16,
+            "posY" : 16,
+			"fontSize" : 1.15,
+			"color" : 13048410,
+			"hoverColor" : 13048410,
+            "alignment" : "top_left"
+		},
+		"newsLine2":{
+			"text" : "",
+            "posX" : 16,
+            "posY" : 30,
+			"fontSize" : 1.15,
+            "color" : 13048410,
+			"hoverColor" : 13048410,
+            "alignment" : "top_left"
+		},
+		"newsLine3":{
+			"text" : "",
+            "posX" : 16,
+            "posY" : 44,
+			"fontSize" : 1.15,
+            "color" : 13048410,
+			"hoverColor" : 13048410,
+            "alignment" : "top_left"
+        },
+        "newsLine4":{
+			"text" : "",
+			"hoverText" : "",
+            "posX" : 16,
+            "posY" : 73,
+			"fontSize" : 1.25,
+            "color" : -1,
+			"hoverColor" : -1,
+            "alignment" : "top_left"
+		},
+		"mojang":
+        {
+            "text" : "Copyright Mojang AB",
+            "posX" : -65,
+            "posY" : -7,
+			"fontSize" : 0.6,
+            "color" : -1,
+            "hoverColor" : -1,
+            "hoverText" : "§nCopyright Mojang AB",
+            "alignment" : "bottom_right",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        }
+    },
+
+    "other":
+    {
+		"background":
+		{
+			"image" : "mainmenu:background.png",
+			"mode" : "stretch"
+		}
+    }
+}

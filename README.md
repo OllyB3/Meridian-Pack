@@ -1,2 +1,3 @@
-# Meridian-Pack Test
+# Meridian-Pack 
+Modpack by OllyB3
 
